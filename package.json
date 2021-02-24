@@ -1,0 +1,46 @@
+{
+  "name": "jonny-run",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@jonny/popover": "^1.0.0-alpha.23",
+    "@jonny/tooltip": "^1.0.0-alpha.23",
+    "date-fns": "^2.0.0-alpha.27",
+    "get-timezone-offset": "^1.0.3",
+    "lodash.uniqby": "^4.7.0",
+    "ordinal": "^1.0.2",
+    "polished": "^3.4.2",
+    "react": "^16.8.3",
+    "react-countdown-now": "^2.1.0",
+    "react-dom": "^16.8.3",
+    "react-infinite-loading": "^1.0.0",
+    "react-sticky": "^6.0.3",
+    "react-use-media": "^0.3.0",
+    "react-window": "^1.8.1",
+    "react-window-infinite-loader": "^1.0.3",
+    "styled-components": "^4.1.3"
+  },
+  "homepage": "https://www.jonny.run",
+  "devDependencies": {
+    "@types/react-window": "^1.8.0",
+    "gh-pages": "^2.0.1",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
